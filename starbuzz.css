@@ -79,3 +79,11 @@ a:visited {
   font-size: 90%;
   clear: right;
 }
+#allcontent{
+  width: 800px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #675c47;
+  margin-left: auto;
+  margin-left: auto;
+}

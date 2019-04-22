@@ -7,7 +7,7 @@ body {
 
 #header {
   background-color: #675c47;
-  margin:           10px 10px 0px 10px;
+  margin:0px 10px 10px 10px;
   height:           108px;
 }
 
@@ -19,10 +19,11 @@ body {
 }
 
 #sidebar {
-  background:       #efe5d0 url(images/background.gif) bottom right;
-  font-size:        105%;
-  padding:          15px;
-  margin:           0px 10px 10px 10px;
+  display: table-cell;
+  background: #efe5d0 url(images/background.gif) bottom right;
+  font-size: 105%;
+  padding: 15px;
+  vertical-align: top;
 }
 
 #footer {
@@ -75,7 +76,7 @@ a:visited {
   color: #efe5d0;
   text-align: center;
   padding: 15px;
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
   font-size: 90%;
   clear: right;
 }
@@ -121,5 +122,39 @@ div#tableRow{
   width: 20%;
   padding: 15px;
   vertical-align: top;
+
+}
+
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
+  
+}
+#aaa{
+
+  background-image: url(images/header.gif);
+  background-position: 800px 0px;
+  width: 500px;
+  height: 128px;
+
+}
+#asc{
+  display: inline-block;
+  background-image: url(images/header.gif);
+  background-position: -400px 0px; 
+  width: 400px;
+  height: 108px;
+  float: right;
+
+}
+#coupon{
+  position: fixed;
+  top: 350px;
+  left: -200px;
+}
+
+#coupon a,img{
+  border: none;
 
 }
